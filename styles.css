@@ -18,9 +18,7 @@ body {
     background-color: #000;
     font-family: Outfit, sans-serif;
     background: url('images/bg.png') no-repeat center center fixed;
-    /* Added this line */
     background-size: cover;
-    /* Added this line */
 }
 
 html {
@@ -53,7 +51,6 @@ section#contact-us * {
     position: -webkit-sticky;
     position: sticky;
     top: 10px;
-    /* Adjust this to set initial space from top */
     height: 60px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background-color: #000;
@@ -82,10 +79,8 @@ section h2::after {
     height: 2px;
     display: block;
     background: #fff;
-    /* Adjust the color of the underline */
     transition: width 0.3s;
     bottom: -5px;
-    /* Adjust the distance from the text */
     left: 0;
 }
 
@@ -110,7 +105,6 @@ section:hover h2::after {
     border-radius: 10px;
     margin-bottom: 1em;
     transition: opacity 1.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
-    /* Add transform transition */
     opacity: 1;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -122,7 +116,6 @@ section:hover h2::after {
 .form:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
     transform: scale(1.02);
-    /* Enlarge on hover */
 }
 
 .hero:hover:before,
@@ -136,7 +129,6 @@ section:hover h2::after {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
-    /* Adjust the overlay color */
     border-radius: 10px;
 }
 
@@ -245,7 +237,6 @@ img {
     justify-content: space-between;
     align-items: center;
     order: 1;
-    /* Ensure the links are in the center */
 }
 
 [class^="w-icon-"] {
@@ -277,7 +268,6 @@ img {
     padding: 0;
     margin: 0;
     gap: 20px;
-    /* Adjust the gap between links as needed */
 }
 
 .nav-links a {
@@ -388,7 +378,6 @@ img {
 .faq {
     padding: 4em 2em;
     text-align: center;
-    /* Keep it right-aligned */
     background: linear-gradient(135deg, #006400, #008080);
 }
 
@@ -402,14 +391,12 @@ img {
     list-style: none;
     padding: 0;
     direction: ltr;
-    /* Reset text direction to left-to-right for list items */
 }
 
 .faq li {
     font-size: 1.2em;
     margin-bottom: 0.5em;
     text-align: left;
-    /* Align list items to the left */
 }
 
 .faq-item {
@@ -506,26 +493,17 @@ img {
     color: rgb(0, 0, 0);
 }
 
-/* Modal styles */
 .modal {
     display: none;
-    /* Hidden by default */
     position: fixed;
-    /* Stay in place */
     z-index: 1000;
-    /* Sit on top */
     left: 0;
     top: 0;
     width: 100%;
-    /* Full width */
     height: 100%;
-    /* Full height */
     overflow: auto;
-    /* Enable scroll if needed */
     background-color: rgb(0, 0, 0);
-    /* Fallback color */
     background-color: rgba(0, 0, 0, 0.6);
-    /* Black w/ opacity */
     padding-top: 60px;
 }
 
@@ -534,11 +512,9 @@ img {
 .modal-content {
     background: linear-gradient(135deg, #00008B, #008B8B);
     margin: 5% auto;
-    /* 5% from the top and centered */
     padding: 20px;
     border: 1px solid #ffffff;
     width: 80%;
-    /* Could be more or less, depending on screen size */
     border-radius: 10px;
     text-align: center;
 }
@@ -560,7 +536,6 @@ img {
 #successJoinDiscordButton,
 #timeRemainingJoinDiscordButton {
     background-color: #7289da;
-    /* Discord color */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -598,28 +573,22 @@ img {
     background-position: right 10px center;
 }
 
-/* Position the dropdown above the submit button */
 .modal select {
     margin-bottom: 20px;
-    /* Increase the margin-bottom to create space between the dropdown and the button */
 }
 
-/* Adjust the position of the button */
 .modal button {
     margin-top: -10px;
-    /* Adjust the top margin of the button to align with the dropdown */
 }
 
-/* Success Modal */
 #successModal .modal-content {
     background: linear-gradient(135deg, #a8e063, #56ab2f);
-    color: white; /* Ensure the text is readable */
+    color: white;
 }
 
-/* Time Remaining/Error Modal */
 #timeRemainingModal .modal-content {
     background: linear-gradient(135deg, #ff6f61, #d62828);
-    color: white; /* Ensure the text is readable */
+    color: white;
 }
 
 #joinUsForm input,
@@ -657,7 +626,7 @@ footer {
 
 .header-logo {
     height: 100px;
-    width: auto; /* Maintain aspect ratio */
+    width: auto;
     display: block;
     margin: 0 auto 20px auto;
     padding: 0;
@@ -671,7 +640,6 @@ footer {
     margin: 0;
     padding: 0;
     text-align: left;
-    /* Change from center to left */
     flex-grow: 1;
 }
 
@@ -686,5 +654,4 @@ footer {
 .navbar.scrolled {
     background-color: rgba(27, 27, 27, 0.6);
     top: 10px;
-    /* Adjust this to set space from top when scrolled */
 }
