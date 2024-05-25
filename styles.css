@@ -1,0 +1,690 @@
+@font-face {
+    font-family: 'webflow-icons';
+    src: url("data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBiUAAAC8AAAAYGNtYXDpP+a4AAABHAAAAFxnYXNwAAAAEAAAAXgAAAAIZ2x5ZmhS2XEAAAGAAAADHGhlYWQTFw3HAAAEnAAAADZoaGVhCXYFgQAABNQAAAAkaG10eCe4A1oAAAT4AAAAMGxvY2EDtALGAAAFKAAAABptYXhwABAAPgAABUQAAAAgbmFtZSoCsMsAAAVkAAABznBvc3QAAwAAAAAHNAAAACAAAwP4AZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpAwPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAQAAAAAwACAACAAQAAgAg5gPpA//9//8AAAAAACDmAOkA//3//wAB/+MaBBcIAAMAAQAAAAAAAAAAAAAAAAABAAH//wAPAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAAAAAAAAAAAAAgAANzkBAAAAAAEBIAAAAyADgAAFAAAJAQcJARcDIP5AQAGA/oBAAcABwED+gP6AQAABAOAAAALgA4AABQAAEwEXCQEH4AHAQP6AAYBAAcABwED+gP6AQAAAAwDAAOADQALAAA8AHwAvAAABISIGHQEUFjMhMjY9ATQmByEiBh0BFBYzITI2PQE0JgchIgYdARQWMyEyNj0BNCYDIP3ADRMTDQJADRMTDf3ADRMTDQJADRMTDf3ADRMTDQJADRMTAsATDSANExMNIA0TwBMNIA0TEw0gDRPAEw0gDRMTDSANEwAAAAABAJ0AtAOBApUABQAACQIHCQEDJP7r/upcAXEBcgKU/usBFVz+fAGEAAAAAAL//f+9BAMDwwAEAAkAABcBJwEXAwE3AQdpA5ps/GZsbAOabPxmbEMDmmz8ZmwDmvxmbAOabAAAAgAA/8AEAAPAAB0AOwAABSInLgEnJjU0Nz4BNzYzMTIXHgEXFhUUBw4BBwYjNTI3PgE3NjU0Jy4BJyYjMSIHDgEHBhUUFx4BFxYzAgBqXV6LKCgoKIteXWpqXV6LKCgoKIteXWpVSktvICEhIG9LSlVVSktvICEhIG9LSlVAKCiLXl1qal1eiygoKCiLXl1qal1eiygoZiEgb0tKVVVKS28gISEgb0tKVVVKS28gIQABAAABwAIAA8AAEgAAEzQ3PgE3NjMxFSIHDgEHBhUxIwAoKIteXWpVSktvICFmAcBqXV6LKChmISBvS0pVAAAAAgAA/8AFtgPAADIAOgAAARYXHgEXFhUUBw4BBwYHIxUhIicuAScmNTQ3PgE3NjMxOAExNDc+ATc2MzIXHgEXFhcVATMJATMVMzUEjD83NlAXFxYXTjU1PQL8kz01Nk8XFxcXTzY1PSIjd1BQWlJJSXInJw3+mdv+2/7c25MCUQYcHFg5OUA/ODlXHBwIAhcXTzY1PTw1Nk8XF1tQUHcjIhwcYUNDTgL+3QFt/pOTkwABAAAAAQAAmM7nP18PPPUACwQAAAAAANciZKUAAAAA1yJkpf/9/70FtgPDAAAACAACAAAAAAAAAAEAAAPA/8AAAAW3//3//QW2AAEAAAAAAAAAAAAAAAAAAAAMBAAAAAAAAAAAAAAAAgAAAAQAASAEAADgBAAAwAQAAJ0EAP/9BAAAAAQAAAAFtwAAAAAAAAAKABQAHgAyAEYAjACiAL4BFgE2AY4AAAABAAAADAA8AAMAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEADQAAAAEAAAAAAAIABwCWAAEAAAAAAAMADQBIAAEAAAAAAAQADQCrAAEAAAAAAAUACwAnAAEAAAAAAAYADQBvAAEAAAAAAAoAGgDSAAMAAQQJAAEAGgANAAMAAQQJAAIADgCdAAMAAQQJAAMAGgBVAAMAAQQJAAQAGgC4AAMAAQQJAAUAFgAyAAMAAQQJAAYAGgB8AAMAAQQJAAoANADsd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzVmVyc2lvbiAxLjAAVgBlAHIAcwBpAG8AbgAgADEALgAwd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzUmVndWxhcgBSAGUAZwB1AGwAYQByd2ViZmxvdy1pY29ucwB3AGUAYgBmAGwAbwB3AC0AaQBjAG8AbgBzRm9udCBnZW5lcmF0ZWQgYnkgSWNvTW9vbi4ARgBvAG4AdAAgAGcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAuAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Hebrew:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #fff;
+    margin: 0;
+    min-height: 100%;
+    background-color: #000;
+    font-family: Outfit, sans-serif;
+    background: url('images/bg.png') no-repeat center center fixed;
+    /* Added this line */
+    background-size: cover;
+    /* Added this line */
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    user-select: none;
+}
+
+section#contact-us,
+section#contact-us * {
+    user-select: text;
+}
+
+.w-nav {
+    position: relative;
+    background: #dddddd;
+    z-index: 1000;
+}
+
+.navbar {
+    width: 100%;
+    max-width: 1800px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10px;
+    /* Adjust this to set initial space from top */
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #000;
+    -webkit-backdrop-filter: blur(21px);
+    backdrop-filter: blur(21px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease, margin-top 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+section h2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+section h2::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    background: #fff;
+    /* Adjust the color of the underline */
+    transition: width 0.3s;
+    bottom: -5px;
+    /* Adjust the distance from the text */
+    left: 0;
+}
+
+section:hover h2::after {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.hero,
+.features,
+.faq,
+.contacts,
+.form {
+    padding: 4em 2em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    transition: opacity 1.5s ease, box-shadow 0.3s ease, transform 0.3s ease;
+    /* Add transform transition */
+    opacity: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hero:hover,
+.features:hover,
+.faq:hover,
+.contacts:hover,
+.form:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    transform: scale(1.02);
+    /* Enlarge on hover */
+}
+
+.hero:hover:before,
+.features:hover:before,
+.faq:hover:before,
+.contacts:hover:before,
+.form:hover:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Adjust the overlay color */
+    border-radius: 10px;
+}
+
+.hero h2,
+.features h2,
+.faq h2,
+.contacts h2,
+.form h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.features ul,
+.faq ul,
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li,
+.faq li,
+.contacts li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1750px;
+}
+
+.w-nav-overlay {
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.navbar-holder {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+}
+
+.w-nav-brand {
+    position: relative;
+    text-decoration: none;
+    color: #333333;
+}
+
+nav {
+    display: block;
+}
+
+.w-nav-menu {
+    position: relative;
+    margin-top: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.w-nav-button {
+    position: relative;
+    padding: 18px;
+    font-size: 24px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+}
+
+.nav-menu-link-holder {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    order: 1;
+    /* Ensure the links are in the center */
+}
+
+[class^="w-icon-"] {
+    font-family: 'webflow-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w-icon-nav-menu:before {
+    content: "\e602";
+}
+
+.nav-menu-link-container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    /* Adjust the gap between links as needed */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3898EC;
+}
+
+.w-button {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background: #111111;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.button:hover {
+    background: #555555;
+}
+
+.hero {
+    padding: 4em 2em;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #13058d, #4b0082);
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.join-button:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.features {
+    padding: 4em 2em;
+    text-align: center;
+    background: linear-gradient(135deg, #8B0000, #FF4500);
+}
+
+.features h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.features li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.faq {
+    padding: 4em 2em;
+    text-align: center;
+    /* Keep it right-aligned */
+    background: linear-gradient(135deg, #006400, #008080);
+}
+
+.faq h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.faq ul {
+    list-style: none;
+    padding: 0;
+    direction: ltr;
+    /* Reset text direction to left-to-right for list items */
+}
+
+.faq li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+    /* Align list items to the left */
+}
+
+.faq-item {
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.faq-question {
+    background-color: #f1f1f1;
+    font-size: 1.2em;
+    color: #000;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.faq-answer {
+    display: none;
+    color: #000;
+    padding: 1em;
+    border-left: 5px solid #2196F3;
+    margin-top: 0.5em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.contacts {
+    padding: 4em 2em;
+    text-align: center;
+    background: linear-gradient(135deg, #4B0082, #8B008B);
+    user-select: text;
+}
+
+.contacts h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    user-select: none;
+}
+
+.contacts ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacts li {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+.form {
+    padding: 4em 2em;
+    text-align: center;
+    background: linear-gradient(135deg, #00008B, #008B8B);
+}
+
+.form h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.form label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.form button:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+
+
+.modal-content {
+    background: linear-gradient(135deg, #00008B, #008B8B);
+    margin: 5% auto;
+    /* 5% from the top and centered */
+    padding: 20px;
+    border: 1px solid #ffffff;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#successJoinDiscordButton,
+#timeRemainingJoinDiscordButton {
+    background-color: #7289da;
+    /* Discord color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#successJoinDiscordButton:hover,
+#timeRemainingJoinDiscordButton:hover {
+    background-color: #5a6ebc;
+}
+
+#joinUsForm label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.modal select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333333" width="18px" height="18px"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+/* Position the dropdown above the submit button */
+.modal select {
+    margin-bottom: 20px;
+    /* Increase the margin-bottom to create space between the dropdown and the button */
+}
+
+/* Adjust the position of the button */
+.modal button {
+    margin-top: -10px;
+    /* Adjust the top margin of the button to align with the dropdown */
+}
+
+/* Success Modal */
+#successModal .modal-content {
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+    color: white; /* Ensure the text is readable */
+}
+
+/* Time Remaining/Error Modal */
+#timeRemainingModal .modal-content {
+    background: linear-gradient(135deg, #ff6f61, #d62828);
+    color: white; /* Ensure the text is readable */
+}
+
+#joinUsForm input,
+#joinUsForm textarea,
+#joinUsForn select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#joinUsForm button {
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.418);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#joinUsForm button:hover {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+footer {
+    padding: 2em 0;
+    background: #000;
+    text-align: center;
+}
+
+.header-logo {
+    height: 100px;
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 20px auto;
+    padding: 0;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.navbar-title {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* Change from center to left */
+    flex-grow: 1;
+}
+
+.navbar-logo {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.navbar.scrolled {
+    background-color: rgba(27, 27, 27, 0.6);
+    top: 10px;
+    /* Adjust this to set space from top when scrolled */
+}
